@@ -135,3 +135,11 @@ Overdue Books Report: Members with pending/overdue returns.
 Branch Report: Employee and branch manager mapping.
 ## Conclusion
 This project serves as a beginner-friendly SQL case study for managing a library system. It covers database setup, CRUD operations, advanced queries, and business insights. The findings help understand library operations, member behavior, and financial performance.
+
+** EMAIL ID- biswassougat652@gmail.com **
+
+Linkedin- http://www.linkedin.com/in/sougat-biswas-4bbb18197
+
+Contact number- +91 9083927538
+
+Thank you!
