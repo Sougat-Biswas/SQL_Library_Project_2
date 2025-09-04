@@ -5,15 +5,15 @@ Level: Beginner
 Database: library_project
 This project demonstrates SQL skills for managing a library database. It covers creating tables, inserting records, and performing queries to simulate real-world library operations such as issuing books, tracking returns, and analyzing usage.
 The project is ideal for beginners who want hands-on practice with SQL queries that reflect actual business operations in a library system.
-# Objectives
+## Objectives
 Database Setup: Create and populate tables for books, members, employees, branches, issued books, and return status.
 CRUD Operations: Perform basic SQL operations — Insert, Update, Delete.
 Exploratory Queries: Retrieve records and answer practical library-related questions.
 Business Analysis: Use SQL to track issued books, overdue returns, and rental income.
-# Project Structure
+## Project Structure
 1. Database Setup
 Database Creation: The project begins with creating a database named library_project.
-# Table Creation: Tables include:
+## Table Creation: Tables include:
 
 books (book details)
 members (library members)
@@ -22,13 +22,13 @@ branch (branch details)
 issued_status (issued books)
 return_status (returned books)
 Sample Data Insertion: Insert initial records into all tables for analysis and testing.
-# 2. Core Tasks & Queries
+## 2. Core Tasks & Queries
 
-# Task 1. Insert a New Book Record
+## Task 1. Insert a New Book Record
 ```INSERT INTO books(isbn, book_title, rental_price, status, author, publisher, category)```
 VALUES
 ```('978-1-60129-456-2', 'To Kill a Mockingbird', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.', 'Classic');```
-# Task 2. Update an Existing Member’s Address
+## Task 2. Update an Existing Member’s Address
 UPDATE members
 ```SET member_address = '125 Main St'
 WHERE member_id = 'C101';```
