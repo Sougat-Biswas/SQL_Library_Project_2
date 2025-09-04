@@ -27,19 +27,21 @@ Sample Data Insertion: Insert initial records into all tables for analysis and t
 ## Task 1. Insert a New Book Record
 ```
 INSERT INTO books(isbn, book_title, rental_price, status, author, publisher, category)```
-VALUES
-```
-('978-1-60129-456-2', 'To Kill a Mockingbird', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.', 'Classic');
+VALUES ('978-1-60129-456-2', 'To Kill a Mockingbird', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.', 'Classic');
 
 ```
 ## Task 2. Update an Existing Member’s Address
-```UPDATE members
-```SET member_address = '125 Main St'
-WHERE member_id = 'C101';```
+```
+UPDATE members
+SET member_address = '125 Main St'
+WHERE member_id = 'C101';
+```
 
-Task 3. Delete a Record from Issued Status 
-```DELETE FROM issued_status
-WHERE issued_id = 'IS121';```
+## Task 3. Delete a Record from Issued Status 
+```
+DELETE FROM issued_status
+WHERE issued_id = 'IS121';
+```
 
 Task 4. Retrieve Books Issued by a Specific Employee
 SELECT issued_book_name
